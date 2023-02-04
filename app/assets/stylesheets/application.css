@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+#navbar {
+    z-index: 9999;
+}
+
 #about {
     background-image: url('bg_sea.jpg');
     background-size: cover;
