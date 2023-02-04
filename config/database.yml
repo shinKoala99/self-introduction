@@ -24,6 +24,8 @@ default: &default
 development:
   <<: *default
   database: self_introduction_development
+  username: self_introduction
+  password: <%= ENV["SELF_INTRODUCTION_DATABASE_PASSWORD"] %>
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
